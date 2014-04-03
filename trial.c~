@@ -1,0 +1,38 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<string.h>
+
+int main(){
+int c=0;
+//char *arr[10];
+char ip[20] = {"abcdefgh"};
+
+//for(c=0;c<10;c++)
+//arr[c]=(char *) malloc(255);
+char *arr[20];  // = (char **) malloc(sizeof(char *)*5);
+int i,found=0,size = 0;
+
+for(i=0; i < size; i++) {
+   if(strcmp(arr[i],ip)==0) {
+        found = 1;
+	break;
+   }
+} 
+
+if(!found) {
+   arr[size] = (char *) malloc(16);
+   strcpy(arr[size],ip);
+   size++;
+} 
+
+printf("\n---- %s\n",arr[0]);
+//arr[0] = (char *) malloc(16);
+/*if(strcmp(arr[0],ip)==0)
+printf("\nson iguales\n");
+else {
+strcpy(arr[0],ip);
+printf("\n---- %s\n",arr[0]);
+}*/
+
+return 0;
+}
