@@ -1,11 +1,4 @@
-/*  PROYECTO HOST DISCOVER + FILE TRANSFER --- EMISOR DE BROADCAST 
-Para correr el programa escribir en la CLI  ./sender <broadcast_ipaddress>  5000
-Jorge Humberto Arrezola Bautista  678608
-Mauricio Javier Gonzalez Salinas 672475
-Programación de Sockets.
-Prof. Alvaro Parres.
-*/
-
+Para correr el programa ./sender <broadcast_ipaddress>  5000
 
 #include <stdio.h>      
 #include <sys/socket.h> 

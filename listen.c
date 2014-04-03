@@ -1,10 +1,4 @@
-/*  PROYECTO HOST DISCOVER + FILE TRANSFER - LISTENER (receptor) 
-Para correr el programa escribir en la CLI  ./listen 
-Jorge Humberto Arrezola Bautista  678608
-Mauricio Javier Gonzalez Salinas 672475
-Programación de Sockets.
-Prof. Alvaro Parres.
-*/
+Para correr el programa ./listen 
 
 #include <stdio.h>      
 #include <sys/socket.h> 
